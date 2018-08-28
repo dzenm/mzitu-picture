@@ -7,38 +7,14 @@ import java.io.IOException;
 
 public class PhotoUtil {
 
-    public static void savePicture(byte[] data) {
+    /**
+     * 存储图片
+     * @param dir
+     * @param data
+     */
+    public static void savePicture(String dir, byte[] data) {
         long name = System.currentTimeMillis();     // 时间戳作为图片名字
-        String direct = createDir("picture");       // 图片存在单独的一个文件夹下
-        File file = new File(direct + "/" + name + ".png");
-        FileOutputStream outputStream = null;
-        try {
-            // 创建新文件
-            file.createNewFile();
-            // 创建输出流
-            outputStream = new FileOutputStream(file);
-            if (outputStream != null) {
-                // 写入数据
-                outputStream.write(data);
-                // 关闭输出流
-                outputStream.close();
-            }
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
-        } finally {
-            try {
-                outputStream.flush();
-                outputStream.close();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-        }
-    }
-
-    public static void savePicture(String name, byte[] data) {
-        String direct = createDir("picture");       // 图片存在单独的一个文件夹下
+        String direct = createDir("picture/" + dir);       // 图片存在单独的一个文件夹下
         File file = new File(direct + "/" + name + ".png");
         FileOutputStream outputStream = null;
         try {
@@ -81,7 +57,7 @@ public class PhotoUtil {
                 e.printStackTrace();
             }
         }
-        direct.mkdir();
+        direct.mkdirs();
         return dir;
     }
 }

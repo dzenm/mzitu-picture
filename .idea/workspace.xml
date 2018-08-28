@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b02d2f5e-c8f1-47dd-9666-150ee6229faf" name="Default Changelist" comment="" />
+    <list default="true" id="b02d2f5e-c8f1-47dd-9666-150ee6229faf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/meizitu/com/din/API.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/meizitu/com/din/Content.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/meizitu/com/din/HttpUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/meizitu/com/din/HttpUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/meizitu/com/din/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/meizitu/com/din/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/meizitu/com/din/ParseHTML.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/meizitu/com/din/ParseHTML.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/meizitu/com/din/PhotoUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/meizitu/com/din/PhotoUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/din/API.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/din/Content.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/din/HttpUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/din/HttpUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/din/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/din/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/din/ParseHTML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/din/ParseHTML.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/din/PhotoUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/din/PhotoUtil.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,22 +39,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1978" />
+          <entry key="java" value="2344" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1978" />
+          <entry key="JAVA" value="2344" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="8" />
+          <entry key="class" value="3" />
+          <entry key="java" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="8" />
+          <entry key="CLASS" value="3" />
+          <entry key="JAVA" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.run.usages" />
@@ -52,39 +69,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/din/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+            <state relative-caret-position="312">
+              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
               <folding>
-                <element signature="e#82#83#0" expanded="true" />
-                <element signature="e#159#160#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/din/PhotoUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="832">
-              <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-              <folding>
-                <element signature="method#savePicture#1;class#PhotoUtil#0" expanded="true" />
-                <element signature="docComment;method#createDir#0;class#PhotoUtil#0" expanded="true" />
-                <element signature="method#createDir#0;class#PhotoUtil#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/din/ParseHTML.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="35" column="36" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
-              <folding>
-                <element signature="method#parse#0;class#ParseHTML#0" expanded="true" />
-                <element signature="method#getElements#0;class#ParseHTML#0" expanded="true" />
-                <element signature="method#getPosition#0;class#ParseHTML#0" expanded="true" />
+                <element signature="method#main#0;class#Main#0" expanded="true" />
+                <element signature="e#172#173#0" expanded="true" />
+                <element signature="e#212#213#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -93,11 +83,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/din/HttpUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+            <state relative-caret-position="442">
+              <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
               <folding>
-                <element signature="method#request#1;class#HttpUtil#0" expanded="true" />
+                <element signature="docComment;method#request#0;class#HttpUtil#0" expanded="true" />
+                <element signature="docComment;method#readInputStream#0;class#HttpUtil#0" expanded="true" />
                 <element signature="method#readInputStream#0;class#HttpUtil#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/din/ParseHTML.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="543">
+              <caret line="71" column="30" selection-start-line="71" selection-start-column="30" selection-end-line="71" selection-end-column="30" />
+              <folding>
+                <element signature="docComment;method#getElements#0;class#ParseHTML#0" expanded="true" />
+                <element signature="method#getElements#0;class#ParseHTML#0" expanded="true" />
+                <element signature="docComment;method#parseDayUpdateHTMLData#0;class#ParseHTML#0" expanded="true" />
+                <element signature="method#parseDayUpdateHTMLData#0;class#ParseHTML#0" expanded="true" />
+                <element signature="docComment;method#addList#0;class#ParseHTML#0" expanded="true" />
+                <element signature="method#addList#0;class#ParseHTML#0" expanded="true" />
+                <element signature="docComment;method#parseContentHTMLData#0;class#ParseHTML#0" expanded="true" />
+                <element signature="docComment;method#getPosition#0;class#ParseHTML#0" expanded="true" />
+                <element signature="method#getPosition#0;class#ParseHTML#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -112,13 +123,17 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/din/API.java" />
         <option value="$PROJECT_DIR$/src/com/din/Content.java" />
-        <option value="$PROJECT_DIR$/src/com/din/PhotoUtil.java" />
+        <option value="$PROJECT_DIR$/src/com/din/PictureBean.java" />
         <option value="$PROJECT_DIR$/src/com/din/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/din/PhotoUtil.java" />
         <option value="$PROJECT_DIR$/src/com/din/ParseHTML.java" />
         <option value="$PROJECT_DIR$/src/com/din/HttpUtil.java" />
       </list>
@@ -134,6 +149,9 @@
     <option name="x" value="1365" />
     <option name="width" value="1141" />
     <option name="height" value="1407" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -168,6 +186,12 @@
               <item name="meizitu" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="meizitu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="meizitu" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="din" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -179,7 +203,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535431434155" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535450086648" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/jsoup-1.11.3.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
@@ -230,16 +254,24 @@
       <workItem from="1534473215128" duration="598000" />
       <workItem from="1534478494249" duration="597000" />
       <workItem from="1535422351560" duration="4678000" />
-      <workItem from="1535430453698" duration="924000" />
+      <workItem from="1535430453698" duration="7725000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10311000" />
+    <option name="totallyTimeSpent" value="17112000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="1365" y="0" width="1141" height="1407" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25161886" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -250,14 +282,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3299293" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25058916" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3299293" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3299293" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -278,10 +310,24 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/din/API.java">
+    <entry file="jar://C:/Program Files/Android/Android Studio/jre/jre/lib/rt.jar!/java/net/URL.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        <state relative-caret-position="640">
+          <caret line="109" selection-start-line="109" selection-end-line="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Android/Android Studio/jre/jre/lib/rt.jar!/java/net/SocketInputStream.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Android/Android Studio/jre/jre/lib/rt.jar!/java/lang/Thread.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="241" selection-start-line="241" selection-end-line="241" />
         </state>
       </provider>
     </entry>
@@ -289,15 +335,37 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="23" />
+          <folding>
+            <element signature="e#98#99#0" expanded="true" />
+            <element signature="e#128#129#0" expanded="true" />
+            <element signature="e#158#159#0" expanded="true" />
+            <element signature="e#184#185#0" expanded="true" />
+            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/din/API.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/din/PictureBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/din/PhotoUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="832">
-          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        <state relative-caret-position="26">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
           <folding>
-            <element signature="method#savePicture#1;class#PhotoUtil#0" expanded="true" />
+            <element signature="method#savePicture#0;class#PhotoUtil#0" expanded="true" />
             <element signature="docComment;method#createDir#0;class#PhotoUtil#0" expanded="true" />
             <element signature="method#createDir#0;class#PhotoUtil#0" expanded="true" />
           </folding>
@@ -306,11 +374,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/din/ParseHTML.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="35" column="36" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
+        <state relative-caret-position="543">
+          <caret line="71" column="30" selection-start-line="71" selection-start-column="30" selection-end-line="71" selection-end-column="30" />
           <folding>
-            <element signature="method#parse#0;class#ParseHTML#0" expanded="true" />
+            <element signature="docComment;method#getElements#0;class#ParseHTML#0" expanded="true" />
             <element signature="method#getElements#0;class#ParseHTML#0" expanded="true" />
+            <element signature="docComment;method#parseDayUpdateHTMLData#0;class#ParseHTML#0" expanded="true" />
+            <element signature="method#parseDayUpdateHTMLData#0;class#ParseHTML#0" expanded="true" />
+            <element signature="docComment;method#addList#0;class#ParseHTML#0" expanded="true" />
+            <element signature="method#addList#0;class#ParseHTML#0" expanded="true" />
+            <element signature="docComment;method#parseContentHTMLData#0;class#ParseHTML#0" expanded="true" />
+            <element signature="docComment;method#getPosition#0;class#ParseHTML#0" expanded="true" />
             <element signature="method#getPosition#0;class#ParseHTML#0" expanded="true" />
           </folding>
         </state>
@@ -318,10 +392,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/din/HttpUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        <state relative-caret-position="442">
+          <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
           <folding>
-            <element signature="method#request#1;class#HttpUtil#0" expanded="true" />
+            <element signature="docComment;method#request#0;class#HttpUtil#0" expanded="true" />
+            <element signature="docComment;method#readInputStream#0;class#HttpUtil#0" expanded="true" />
             <element signature="method#readInputStream#0;class#HttpUtil#0" expanded="true" />
           </folding>
         </state>
@@ -329,11 +404,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/din/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        <state relative-caret-position="312">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
           <folding>
-            <element signature="e#82#83#0" expanded="true" />
-            <element signature="e#159#160#0" expanded="true" />
+            <element signature="method#main#0;class#Main#0" expanded="true" />
+            <element signature="e#172#173#0" expanded="true" />
+            <element signature="e#212#213#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -3,6 +3,11 @@ package com.din;
 public class Main {
 
     public static void main(String[] args) {
-        ParseHTML.parseContentHTMLData("http://www.mzitu.com/147600");
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                ParseHTML.parseDayUpdateHTMLData("http://www.mzitu.com/all/");
+            }
+        }).start();
     }
 }

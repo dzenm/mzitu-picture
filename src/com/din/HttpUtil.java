@@ -9,70 +9,11 @@ import java.util.Map;
 
 public class HttpUtil {
 
-    public static void request(String imageUrl) {
-        URL url = null;         // 创建一个URL对象
-        BufferedReader reader = null;
-        try {
-            url = new URL(imageUrl);
-            // 通过URL对象提出的openConnection方法创建URLConnection对象
-            HttpURLConnection connection = (HttpURLConnection) url.openConnection();
-            // 设置请求方式为"GET"
-            connection.setRequestMethod("GET");
-            // 超时响应时间为5秒
-            connection.setConnectTimeout(5000);
-            // 设置Referer，防止403请求被拒
-            connection.setRequestProperty("Referer", "http://www.mzitu.com/all/");
-            // 通过输入流获取图片数据
-            InputStream stream = connection.getInputStream();
-            // 得到图片的二进制数据，以二进制封装得到数据，具有通用性
-            byte[] data = readInputStream(stream);
-            // new一个文件对象用来保存图片，默认保存当前工程根目录
-            PhotoUtil.savePicture(data);
-            // 调用URLConnection对象提供的connect方法连接远程服务
-            connection.connect();
-
-            // 连接服务器后，就可以查询头部信息了
-            Map<String, List<String>> map = connection.getHeaderFields();
-            for (Map.Entry<String, List<String>> entry : map.entrySet()) {
-                String key = entry.getKey();
-                List<String> values = entry.getValue();
-                StringBuilder builder = new StringBuilder();
-                int size = values == null ? 0 : values.size();
-                for (int i = 0; i < size; i++) {
-                    if (i > 0) {
-                        builder.append(",");
-                    }
-                    builder.append(values.get(i));
-                }
-                System.out.println(key + ": " + builder.toString());
-            }
-            System.out.println("--------------------------");
-
-//            // 获取输入流，从中读取资源数据
-//            InputStream inputStream = connection.getInputStream();
-//            InputStreamReader streamReader = new InputStreamReader(inputStream);
-//            reader = new BufferedReader(streamReader);
-//			  // 遍历得到的数据
-//            for (String line = null; (line = reader.readLine()) != null; ) {
-//                System.out.println(line);
-//            }
-        } catch (MalformedURLException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
-        } catch (Exception e) {
-            e.printStackTrace();
-        } finally {
-            if (reader != null) {
-                try {
-                    reader.close();
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-            }
-        }
-    }
-
+    /**
+     * Http请求下载图片
+     * @param imageUrl
+     * @param name
+     */
     public static void request(String imageUrl, String name) {
         URL url = null;         // 创建一个URL对象
         BufferedReader reader = null;
@@ -82,8 +23,10 @@ public class HttpUtil {
             HttpURLConnection connection = (HttpURLConnection) url.openConnection();
             // 设置请求方式为"GET"
             connection.setRequestMethod("GET");
-            // 超时响应时间为5秒
-            connection.setConnectTimeout(5000);
+            // 设置Referer，防止403请求被拒
+            connection.setRequestProperty("Referer", "http://www.mzitu.com/all/");
+            // 超时响应时间为60秒
+            connection.setConnectTimeout(60000);
             // 通过输入流获取图片数据
             InputStream stream = connection.getInputStream();
             // 得到图片的二进制数据，以二进制封装得到数据，具有通用性
@@ -109,15 +52,6 @@ public class HttpUtil {
                 System.out.println(key + ": " + builder.toString());
             }
             System.out.println("--------------------------");
-
-//            // 获取输入流，从中读取资源数据
-//            InputStream inputStream = connection.getInputStream();
-//            InputStreamReader streamReader = new InputStreamReader(inputStream);
-//            reader = new BufferedReader(streamReader);
-//			  // 遍历得到的数据
-//            for (String line = null; (line = reader.readLine()) != null; ) {
-//                System.out.println(line);
-//            }
         } catch (MalformedURLException e) {
             e.printStackTrace();
         } catch (IOException e) {
@@ -135,6 +69,12 @@ public class HttpUtil {
         }
     }
 
+    /**
+     * 读取输入流并转化为字节流
+     * @param inputStream
+     * @return
+     * @throws Exception
+     */
     public static byte[] readInputStream (InputStream inputStream) throws Exception {
         ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
         // 创建一个Buffer字符串
