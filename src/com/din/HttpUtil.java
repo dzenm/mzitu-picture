@@ -37,21 +37,21 @@ public class HttpUtil {
             connection.connect();
 
             // 连接服务器后，就可以查询头部信息了
-            Map<String, List<String>> map = connection.getHeaderFields();
-            for (Map.Entry<String, List<String>> entry : map.entrySet()) {
-                String key = entry.getKey();
-                List<String> values = entry.getValue();
-                StringBuilder builder = new StringBuilder();
-                int size = values == null ? 0 : values.size();
-                for (int i = 0; i < size; i++) {
-                    if (i > 0) {
-                        builder.append(",");
-                    }
-                    builder.append(values.get(i));
-                }
-                System.out.println(key + ": " + builder.toString());
-            }
-            System.out.println("--------------------------");
+//            Map<String, List<String>> map = connection.getHeaderFields();
+//            for (Map.Entry<String, List<String>> entry : map.entrySet()) {
+//                String key = entry.getKey();
+//                List<String> values = entry.getValue();
+//                StringBuilder builder = new StringBuilder();
+//                int size = values == null ? 0 : values.size();
+//                for (int i = 0; i < size; i++) {
+//                    if (i > 0) {
+//                        builder.append(",");
+//                    }
+//                    builder.append(values.get(i));
+//                }
+//                System.out.println(key + ": " + builder.toString());
+//            }
+//            System.out.println("-----------------------------------");
         } catch (MalformedURLException e) {
             e.printStackTrace();
         } catch (IOException e) {
