@@ -74,7 +74,7 @@
     }
 ```
 
-## 三、下载图片，将输入流转化为字节流
+## 三、下载图片，new一个URL对象，设置请求的参数，将输入流转化为字节流
 
 ```
     public static void request(String imageUrl, String name) {
@@ -133,10 +133,10 @@
     }
 ```
 * 跨域问题，需要设置请求头，否则会出现403访问被拒
->> 设置Referer，防止403请求被拒
-connection.setRequestProperty("Referer", "http://www.mzitu.com/all/");
+> 设置Referer，防止403请求被拒
+> connection.setRequestProperty("Referer", "http://www.mzitu.com/all/");
     
-## 四、保存图片，将字节流转化为图片文件
+## 四、保存图片，根据图片所在的帖子标题创建新的文件夹，如果文件夹存在，返回文件的相对路径，创建输出流将字节流转化为图片文件
     
 ```
     public static void savePicture(String dir, byte[] data) {
