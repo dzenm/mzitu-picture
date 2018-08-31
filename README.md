@@ -1,6 +1,8 @@
 # [Java 爬 Mzitu.com](http://www.mzitu.com/)
 
-
+  
+  
+  
 ## 一、分析网站结构得知，每日更新页面存在所有图片链接，遍历年份节点，取得日期下的图片页面所在的链接---(获取所有图片帖子的链接和标题)
 
 ```
@@ -42,8 +44,10 @@
             System.out.println("第 " + j + " 条数据图片保存完成...");
         }
     }
-```
-
+```  
+  
+    
+    
 ---
 ## 二、图片是分页显示的，一页显示一张图片，在进入图片链接之后，获取底部的页数显示作为该帖子下图片的个数---(获取每条帖子下的所有图片url)
 
@@ -72,8 +76,10 @@
         int pages = Integer.valueOf(elements.get(elements.size() - last).text());
         return pages;
     }
-```
-
+```  
+  
+  
+  
 ---
 ## 三、下载图片，new一个URL对象，设置请求的参数，将输入流转化为字节流
 
@@ -135,8 +141,10 @@
 ```
 * 跨域问题，需要设置请求头，否则会出现403访问被拒
 > 设置Referer，防止403请求被拒
-> connection.setRequestProperty("Referer", "http://www.mzitu.com/all/");
-
+> connection.setRequestProperty("Referer", "http://www.mzitu.com/all/");  
+    
+  
+  
 ---    
 ## 四、保存图片，根据图片所在的帖子标题创建新的文件夹，如果文件夹存在，返回文件的相对路径，创建输出流将字节流转化为图片文件
     
@@ -184,8 +192,9 @@
         direct.mkdirs();
         return dir;
     }
- ```
- 
+ ```  
+   
+    
  ---
  * 需要导入Jsoup的包
  
