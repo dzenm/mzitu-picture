@@ -1,7 +1,7 @@
 # [Java 爬 Mzitu.com](http://www.mzitu.com/)
 
 
-#### 一、分析网站结构得知，每日更新页面存在所有图片链接，遍历年份节点，取得日期下的图片页面所在的链接---(获取所有图片帖子的链接和标题)
+## 一、分析网站结构得知，每日更新页面存在所有图片链接，遍历年份节点，取得日期下的图片页面所在的链接---(获取所有图片帖子的链接和标题)
 
 ```
     public static void parseDayUpdateHTMLData(String URL) {
@@ -45,7 +45,7 @@
 ```
 
 
-#### 二、图片是分页显示的，一页显示一张图片，在进入图片链接之后，获取底部的页数显示作为该帖子下图片的个数---(获取每条帖子下的所有图片url)
+## 二、图片是分页显示的，一页显示一张图片，在进入图片链接之后，获取底部的页数显示作为该帖子下图片的个数---(获取每条帖子下的所有图片url)
 
 
 ```
@@ -74,7 +74,7 @@
     }
 ```
 
-#### 三、下载图片，将输入流转化为字节流
+## 三、下载图片，将输入流转化为字节流
 
 ```
     public static void request(String imageUrl, String name) {
@@ -132,8 +132,10 @@
         return outputStream.toByteArray();
     }
 ```
+| // 设置Referer，防止403请求被拒
+ connection.setRequestProperty("Referer", "http://www.mzitu.com/all/");
     
-#### 四、保存图片，将字节流转化为图片文件
+## 四、保存图片，将字节流转化为图片文件
     
 ```
     public static void savePicture(String dir, byte[] data) {
