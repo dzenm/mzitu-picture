@@ -132,8 +132,9 @@
         return outputStream.toByteArray();
     }
 ```
-| // 设置Referer，防止403请求被拒
- connection.setRequestProperty("Referer", "http://www.mzitu.com/all/");
+* 跨域问题，需要设置请求头，否则会出现403访问被拒
+>> 设置Referer，防止403请求被拒
+connection.setRequestProperty("Referer", "http://www.mzitu.com/all/");
     
 ## 四、保存图片，将字节流转化为图片文件
     
