@@ -2,27 +2,25 @@ package com.din;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
-import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
 
 public class ParseHTML {
 
     private static int count = 0;
+
     /**
      * 链接到网址获取数据
      *
-     * @param URL
+     * @param baseUrl
      * @param cssQuery
      * @param query
      * @return
      */
-    private static Elements getElements(String URL, String cssQuery, String query) {
+    private static Elements getElements(String baseUrl, String cssQuery, String query) {
         try {
-            Document document = Jsoup.connect(URL).get();       // 通过Jsoup链接到一个网址，获取到整个document
+            Document document = Jsoup.connect(baseUrl).get();       // 通过Jsoup链接到一个网址，获取到整个document
             Elements elements = document.select(cssQuery).select(query);     // 分析网页的内容
             return elements;
         } catch (IOException e) {
@@ -33,10 +31,11 @@ public class ParseHTML {
 
     /**
      * 解析HTML页面
-     * @param URL
+     *
+     * @param baseUrl
      */
-    public static void parseDayUpdateHTMLData(String URL) {
-        Elements elements = getElements(URL, "div.all", "ul.archives");
+    public static void parseDayUpdateHTMLData(String baseUrl) {
+        Elements elements = getElements(baseUrl, "div.all", "ul.archives");
         System.out.println("获取的总年份数据为:" + elements.size());
         for (int i = 0; i < elements.size(); i++) {
             System.out.println("正在获取第 " + count + " 年的数据");
@@ -63,27 +62,32 @@ public class ParseHTML {
             String title = nextElements.get(j).text().toString();
             String url = nextElements.get(j).attr("href").toString();
             System.out.println("正在下载 " + j + " 条的数据...");
+            System.out.println("标题为: " + title);
             parseContentHTMLData(title, url);
             System.out.println("第 " + j + " 条数据图片保存完成...");
         }
     }
+
     /**
      * 单张图片显示
+     *
      * @param title
-     * @param URL
+     * @param baseUrl
      */
-    public static void parseContentHTMLData(String title, String URL) {
-        Elements elements = getElements(URL, "div.pagenavi", "span");
+    public static void parseContentHTMLData(String title, String baseUrl) {
+        Elements elements = getElements(baseUrl, "div.pagenavi", "span");
         // 分析网页的内容
         if (elements.size() >= 2) {
             int pages = getPosition(elements, 2);
             for (int i = 1; i <= pages; i++) {
                 try {
-                    Document pageDocument = Jsoup.connect(URL + "/" + i).get();
-                    Element element = pageDocument.select("div.main-image").select("img").first();
-                    getElements(URL, "div.main-image", "span");
-                    String url = element.attr("src").toString();
+                    Document pageDocument = Jsoup.connect(baseUrl + "/" + i).get();
+                    String url = pageDocument.select("div.main-image").select("img").attr("src");
+                    if (url.contains("\n") || url.contains("</p>")) {
+                        continue;
+                    }
                     HttpUtil.request(url, title);
+                    System.out.println("图片网址: " + url);
                 } catch (IOException e) {
                     e.printStackTrace();
                 }

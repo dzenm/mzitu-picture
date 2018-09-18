@@ -19,6 +19,7 @@ public class HttpUtil {
         BufferedReader reader = null;
         try {
             url = new URL(imageUrl);
+            
             // 通过URL对象提出的openConnection方法创建URLConnection对象
             HttpURLConnection connection = (HttpURLConnection) url.openConnection();
             // 设置请求方式为"GET"

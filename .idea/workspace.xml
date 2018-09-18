@@ -2,13 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b02d2f5e-c8f1-47dd-9666-150ee6229faf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/jsoup_1_11_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/jsoup_1_11_3.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/meizitu/com/din/HttpUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/meizitu/com/din/HttpUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/meizitu/com/din/Main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/meizitu/com/din/Main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/meizitu/com/din/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/meizitu/com/din/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/meizitu/com/din/ParseHTML.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/meizitu/com/din/ParseHTML.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/meizitu/com/din/PhotoUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/meizitu/com/din/PhotoUtil.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/din/HttpUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/din/HttpUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/din/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/din/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/din/ParseHTML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/din/ParseHTML.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,44 +68,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/din/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/din/HttpUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="936">
-              <caret line="53" column="69" selection-start-line="53" selection-start-column="69" selection-end-line="53" selection-end-column="69" />
+            <state relative-caret-position="63">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
               <folding>
-                <element signature="docComment;method#request#0;class#HttpUtil#0" expanded="true" />
-                <element signature="docComment;method#readInputStream#0;class#HttpUtil#0" expanded="true" />
-                <element signature="method#readInputStream#0;class#HttpUtil#0" expanded="true" />
+                <element signature="class#781:930" expanded="true" />
+                <element signature="e#838#839#0" expanded="true" />
+                <element signature="e#923#924#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/din/ParseHTML.java">
+      <file leaf-file-name="HttpUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/din/HttpUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="66" column="59" selection-start-line="66" selection-start-column="59" selection-end-line="66" selection-end-column="59" />
+            <state relative-caret-position="190">
+              <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
               <folding>
-                <element signature="docComment;method#getElements#0;class#ParseHTML#0" expanded="true" />
-                <element signature="method#getElements#0;class#ParseHTML#0" expanded="true" />
-                <element signature="docComment;method#parseDayUpdateHTMLData#0;class#ParseHTML#0" expanded="true" />
-                <element signature="method#parseDayUpdateHTMLData#0;class#ParseHTML#0" expanded="true" />
-                <element signature="docComment;method#addList#0;class#ParseHTML#0" expanded="true" />
-                <element signature="docComment;method#parseContentHTMLData#0;class#ParseHTML#0" expanded="true" />
-                <element signature="method#parseContentHTMLData#0;class#ParseHTML#0" expanded="true" />
-                <element signature="docComment;method#getPosition#0;class#ParseHTML#0" expanded="true" />
-                <element signature="method#getPosition#0;class#ParseHTML#0" expanded="true" />
+                <element signature="docComment;method#request#0;class#HttpUtil#0" expanded="true" />
+                <element signature="docComment;method#readInputStream#0;class#HttpUtil#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -124,9 +115,9 @@
         <option value="$PROJECT_DIR$/src/com/din/PictureBean.java" />
         <option value="$PROJECT_DIR$/src/com/din/PhotoUtil.java" />
         <option value="$PROJECT_DIR$/meizitu.iml" />
-        <option value="$PROJECT_DIR$/src/com/din/Main.java" />
         <option value="$PROJECT_DIR$/src/com/din/HttpUtil.java" />
         <option value="$PROJECT_DIR$/src/com/din/ParseHTML.java" />
+        <option value="$PROJECT_DIR$/src/com/din/Main.java" />
       </list>
     </option>
   </component>
@@ -136,28 +127,32 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1365" />
-    <option name="width" value="1141" />
-    <option name="height" value="1407" />
+    <option name="x" value="35" />
+    <option name="width" value="1331" />
+    <option name="height" value="768" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="PackagesPane" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="PackagesPane">
         <subPane>
           <expand>
             <path>
-              <item name="meizitu" type="58d84e3e:PackageViewProjectNode" />
+              <item name="mzitu-picture" type="58d84e3e:PackageViewProjectNode" />
               <item name="meizitu" type="616d4139:PackageViewModuleNode" />
             </path>
             <path>
-              <item name="meizitu" type="58d84e3e:PackageViewProjectNode" />
+              <item name="mzitu-picture" type="58d84e3e:PackageViewProjectNode" />
               <item name="meizitu" type="616d4139:PackageViewModuleNode" />
               <item name="com.din" type="1f31426a:PackageElementNode" />
             </path>
@@ -169,37 +164,26 @@
         <subPane>
           <expand>
             <path>
-              <item name="meizitu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="meizitu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="meizitu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="meizitu" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="meizitu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="meizitu" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="din" type="462c0819:PsiDirectoryNode" />
+              <item name="mzitu-picture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mzitu-picture" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535510599195" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/jsoup-1.11.3.jar!/" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -220,9 +204,6 @@
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <recent_temporary>
       <list>
@@ -247,11 +228,18 @@
       <workItem from="1535422351560" duration="4678000" />
       <workItem from="1535430453698" duration="7955000" />
       <workItem from="1535504452136" duration="2298000" />
+      <workItem from="1535544469489" duration="6906000" />
+      <workItem from="1535647744741" duration="2311000" />
+      <workItem from="1535728860203" duration="8890000" />
+      <workItem from="1536322432019" duration="1568000" />
+      <workItem from="1536581178746" duration="3497000" />
+      <workItem from="1536732315802" duration="528000" />
+      <workItem from="1537229875937" duration="3217000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19640000" />
+    <option name="totallyTimeSpent" value="46557000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -263,37 +251,37 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1365" y="0" width="1141" height="1407" extended-state="0" />
+    <frame x="35" y="0" width="1331" height="768" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2562442" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.25058916" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3299293" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3299293" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Database" order="5" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3299293" />
+      <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.259542" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32977098" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Designer" order="3" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24322231" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -303,27 +291,240 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Android/Android Studio/jre/jre/lib/rt.jar!/java/net/URL.class">
+    <entry file="file://$PROJECT_DIR$/src/com/din/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="109" selection-start-line="109" selection-end-line="109" />
+        <state relative-caret-position="357">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="class#781:930" expanded="true" />
+            <element signature="e#838#839#0" expanded="true" />
+            <element signature="e#923#924#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Android/Android Studio/jre/jre/lib/rt.jar!/java/net/SocketInputStream.class">
+    <entry file="file://$PROJECT_DIR$/src/com/din/ParseHTML.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="798">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="docComment;method#getElements#0;class#ParseHTML#0" expanded="true" />
+            <element signature="docComment;method#parseDayUpdateHTMLData#0;class#ParseHTML#0" expanded="true" />
+            <element signature="docComment;method#addList#0;class#ParseHTML#0" expanded="true" />
+            <element signature="docComment;method#parseContentHTMLData#0;class#ParseHTML#0" expanded="true" />
+            <element signature="docComment;method#getPosition#0;class#ParseHTML#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Android/Android Studio/jre/jre/lib/rt.jar!/java/lang/Thread.class">
+    <entry file="file://$PROJECT_DIR$/src/com/din/HttpUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="241" selection-start-line="241" selection-end-line="241" />
+        <state relative-caret-position="294">
+          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+          <folding>
+            <element signature="docComment;method#request#0;class#HttpUtil#0" expanded="true" />
+            <element signature="docComment;method#readInputStream#0;class#HttpUtil#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/din/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+          <folding>
+            <element signature="class#781:930" expanded="true" />
+            <element signature="e#838#839#0" expanded="true" />
+            <element signature="e#923#924#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/jsoup-1.11.3.jar!/org/jsoup/Jsoup.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/din/ParseHTML.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1785">
+          <caret line="85" column="46" selection-start-line="85" selection-start-column="46" selection-end-line="85" selection-end-column="46" />
+          <folding>
+            <element signature="docComment;method#getElements#0;class#ParseHTML#0" expanded="true" />
+            <element signature="docComment;method#parseDayUpdateHTMLData#0;class#ParseHTML#0" expanded="true" />
+            <element signature="docComment;method#addList#0;class#ParseHTML#0" expanded="true" />
+            <element signature="docComment;method#parseContentHTMLData#0;class#ParseHTML#0" expanded="true" />
+            <element signature="docComment;method#getPosition#0;class#ParseHTML#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/din/HttpUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+          <folding>
+            <element signature="docComment;method#request#0;class#HttpUtil#0" expanded="true" />
+            <element signature="docComment;method#readInputStream#0;class#HttpUtil#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/jsoup-1.11.3.jar!/org/jsoup/helper/HttpConnection.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11004">
+          <caret line="524" column="16" selection-start-line="524" selection-start-column="16" selection-end-line="524" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/din/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+          <folding>
+            <element signature="class#781:930" expanded="true" />
+            <element signature="e#838#839#0" expanded="true" />
+            <element signature="e#923#924#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/din/ParseHTML.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1281">
+          <caret line="85" column="46" selection-start-line="85" selection-start-column="46" selection-end-line="85" selection-end-column="46" />
+          <folding>
+            <element signature="docComment;method#getElements#0;class#ParseHTML#0" expanded="true" />
+            <element signature="docComment;method#parseDayUpdateHTMLData#0;class#ParseHTML#0" expanded="true" />
+            <element signature="docComment;method#addList#0;class#ParseHTML#0" expanded="true" />
+            <element signature="docComment;method#parseContentHTMLData#0;class#ParseHTML#0" expanded="true" />
+            <element signature="docComment;method#getPosition#0;class#ParseHTML#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/din/HttpUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+          <folding>
+            <element signature="docComment;method#request#0;class#HttpUtil#0" expanded="true" />
+            <element signature="docComment;method#readInputStream#0;class#HttpUtil#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/din/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+          <folding>
+            <element signature="class#781:930" expanded="true" />
+            <element signature="e#838#839#0" expanded="true" />
+            <element signature="e#923#924#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/din/ParseHTML.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1785">
+          <caret line="85" column="46" selection-start-line="85" selection-start-column="46" selection-end-line="85" selection-end-column="46" />
+          <folding>
+            <element signature="docComment;method#getElements#0;class#ParseHTML#0" expanded="true" />
+            <element signature="docComment;method#parseDayUpdateHTMLData#0;class#ParseHTML#0" expanded="true" />
+            <element signature="docComment;method#addList#0;class#ParseHTML#0" expanded="true" />
+            <element signature="docComment;method#parseContentHTMLData#0;class#ParseHTML#0" expanded="true" />
+            <element signature="docComment;method#getPosition#0;class#ParseHTML#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/din/HttpUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+          <folding>
+            <element signature="docComment;method#request#0;class#HttpUtil#0" expanded="true" />
+            <element signature="docComment;method#readInputStream#0;class#HttpUtil#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/din/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <element signature="class#781:930" expanded="true" />
+            <element signature="e#838#839#0" expanded="true" />
+            <element signature="e#923#924#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/din/ParseHTML.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1995">
+          <caret line="95" column="29" lean-forward="true" selection-start-line="95" selection-start-column="29" selection-end-line="95" selection-end-column="29" />
+          <folding>
+            <element signature="docComment;method#getElements#0;class#ParseHTML#0" expanded="true" />
+            <element signature="docComment;method#parseDayUpdateHTMLData#0;class#ParseHTML#0" expanded="true" />
+            <element signature="docComment;method#addList#0;class#ParseHTML#0" expanded="true" />
+            <element signature="docComment;method#parseContentHTMLData#0;class#ParseHTML#0" expanded="true" />
+            <element signature="docComment;method#getPosition#0;class#ParseHTML#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/din/HttpUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+          <folding>
+            <element signature="docComment;method#request#0;class#HttpUtil#0" expanded="true" />
+            <element signature="docComment;method#readInputStream#0;class#HttpUtil#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/din/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/din/HttpUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="53" column="69" selection-start-line="53" selection-start-column="69" selection-end-line="53" selection-end-column="69" />
+          <folding>
+            <element signature="docComment;method#request#0;class#HttpUtil#0" expanded="true" />
+            <element signature="docComment;method#readInputStream#0;class#HttpUtil#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/din/ParseHTML.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="66" column="59" selection-start-line="66" selection-start-column="59" selection-end-line="66" selection-end-column="59" />
+          <folding>
+            <element signature="docComment;method#getElements#0;class#ParseHTML#0" expanded="true" />
+            <element signature="docComment;method#parseDayUpdateHTMLData#0;class#ParseHTML#0" expanded="true" />
+            <element signature="docComment;method#addList#0;class#ParseHTML#0" expanded="true" />
+            <element signature="docComment;method#parseContentHTMLData#0;class#ParseHTML#0" expanded="true" />
+            <element signature="docComment;method#getPosition#0;class#ParseHTML#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Android/Android Studio/jre/jre/lib/rt.jar!/java/net/URL.class" />
+    <entry file="jar://C:/Program Files/Android/Android Studio/jre/jre/lib/rt.jar!/java/net/SocketInputStream.class" />
+    <entry file="jar://C:/Program Files/Android/Android Studio/jre/jre/lib/rt.jar!/java/lang/Thread.class" />
     <entry file="file://$PROJECT_DIR$/src/com/din/Content.java" />
     <entry file="file://$PROJECT_DIR$/src/com/din/API.java" />
     <entry file="file://$PROJECT_DIR$/src/com/din/PictureBean.java" />
@@ -346,39 +547,67 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/jsoup-1.11.3.jar!/org/jsoup/helper/DataUtil.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-151">
+          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/jsoup-1.11.3.jar!/org/jsoup/Jsoup.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/jsoup-1.11.3.jar!/org/jsoup/Connection.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="234" lean-forward="true" selection-start-line="234" selection-end-line="234" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/jsoup-1.11.3.jar!/org/jsoup/helper/HttpConnection.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="524" column="16" selection-start-line="524" selection-start-column="16" selection-end-line="524" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/din/HttpUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="936">
-          <caret line="53" column="69" selection-start-line="53" selection-start-column="69" selection-end-line="53" selection-end-column="69" />
+        <state relative-caret-position="190">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
           <folding>
             <element signature="docComment;method#request#0;class#HttpUtil#0" expanded="true" />
             <element signature="docComment;method#readInputStream#0;class#HttpUtil#0" expanded="true" />
-            <element signature="method#readInputStream#0;class#HttpUtil#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/din/ParseHTML.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="82" column="21" lean-forward="true" selection-start-line="82" selection-start-column="21" selection-end-line="82" selection-end-column="21" />
+          <folding>
+            <element signature="docComment;method#getElements#0;class#ParseHTML#0" expanded="true" />
+            <element signature="docComment;method#parseDayUpdateHTMLData#0;class#ParseHTML#0" expanded="true" />
+            <element signature="docComment;method#addList#0;class#ParseHTML#0" expanded="true" />
+            <element signature="docComment;method#parseContentHTMLData#0;class#ParseHTML#0" expanded="true" />
+            <element signature="docComment;method#getPosition#0;class#ParseHTML#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/din/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/din/ParseHTML.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="66" column="59" selection-start-line="66" selection-start-column="59" selection-end-line="66" selection-end-column="59" />
+        <state relative-caret-position="63">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
           <folding>
-            <element signature="docComment;method#getElements#0;class#ParseHTML#0" expanded="true" />
-            <element signature="method#getElements#0;class#ParseHTML#0" expanded="true" />
-            <element signature="docComment;method#parseDayUpdateHTMLData#0;class#ParseHTML#0" expanded="true" />
-            <element signature="method#parseDayUpdateHTMLData#0;class#ParseHTML#0" expanded="true" />
-            <element signature="docComment;method#addList#0;class#ParseHTML#0" expanded="true" />
-            <element signature="docComment;method#parseContentHTMLData#0;class#ParseHTML#0" expanded="true" />
-            <element signature="method#parseContentHTMLData#0;class#ParseHTML#0" expanded="true" />
-            <element signature="docComment;method#getPosition#0;class#ParseHTML#0" expanded="true" />
-            <element signature="method#getPosition#0;class#ParseHTML#0" expanded="true" />
+            <element signature="class#781:930" expanded="true" />
+            <element signature="e#838#839#0" expanded="true" />
+            <element signature="e#923#924#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -412,6 +641,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
+          <last-edited>groovy-2.5.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
