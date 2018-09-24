@@ -1,7 +1,13 @@
-# 用Java 爬 Mzitu.com
-
+# 用Java 爬取 Mzitu.com 所有图片
 
 <br /><br />
+
+## 用到的知识点
+* Java基础
+* 多线程
+* File保存图片
+* HTTP下载图片 
+* Jsoup库的使用
 
 ## 首先需要导入Jsoup，这是 [Jsoup下载地址](https://jsoup.org/download)
 
@@ -215,6 +221,8 @@
  
 <br /><br />
 该网址有4000多条数据，12G的图片
+<br />
 ![image](https://github.com/freedomeden/mzitu-picture/blob/master/picture.png)
-<br /><br />
+<br />
+
 
