@@ -9,7 +9,7 @@
 * HTTP下载图片 
 * Jsoup库的使用
 
-## 首先需要导入Jsoup，这是 [Jsoup下载地址](https://jsoup.org/download)
+## 首先导入Jsoup，这是 [Jsoup下载地址](https://jsoup.org/download)
 
 <br />
 
