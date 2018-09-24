@@ -15,14 +15,14 @@
 
 > git clone https://github.com/freedomeden/mzitu-picture
 
-####下载之后使用IDEA打开，运行main方法
+#### 下载之后使用IDEA打开，运行main方法
 
 <br /><br />
 
 
 ## 代码说明 <br />
 
-#### 一、打开 [网址](http://www.mzitu.com/)，按F12(Chrome) 或点击右上角的 菜单/更多工具/开发者工具。打开后是HTML页面，然后分析网站结构得知，[每日更新](http://www.mzitu.com/all/) 是所有更新的图片帖子链接。可以遍历年份节点，取得日期下的图片页面所在的链接---(获取所有图片帖子的链接和标题)
+#### 打开 [网址](http://www.mzitu.com/)，按F12(Chrome) 或点击右上角的 菜单/更多工具/开发者工具。打开后是HTML页面，然后分析网站结构得知，[每日更新](http://www.mzitu.com/all/) 是所有更新的图片帖子链接。可以遍历年份节点，取得日期下的图片页面所在的链接---(获取所有图片帖子的链接和标题)
 
 ```
     public static void parseDayUpdateHTMLData(String URL) {
@@ -66,7 +66,7 @@
 ```  
 <br />
 
-####  二、图片是分页显示的，一页显示一张图片，在进入图片链接之后，可以获取底部的页数知道图片的数据---(获取每条帖子下的所有图片url)
+#### 图片是分页显示的，一页显示一张图片，在进入图片链接之后，可以获取底部的页数知道图片的数据---(获取每条帖子下的所有图片url)
 
 ```
     public static void parseContentHTMLData(String title, String URL) {
@@ -103,7 +103,7 @@
 ```
 
 <br />
-#### 三、下载图片，创建一个URL对象，设置请求的参数，将输入流转化为字节流
+#### 下载图片，创建一个URL对象，设置请求的参数，将输入流转化为字节流
 
 ```
     public static void request(String imageUrl, String name) {
@@ -168,7 +168,7 @@
 > connection.setRequestProperty("Referer", "http://www.mzitu.com/all/");  
 
 <br />  
-#### 四、保存图片，根据图片所在的帖子标题创建新的文件夹，如果文件夹存在，返回文件的相对路径，创建输出流将字节流转化为图片文件
+#### 保存图片，根据图片所在的帖子标题创建新的文件夹，如果文件夹存在，返回文件的相对路径，创建输出流将字节流转化为图片文件
 
 ```
     public static void savePicture(String dir, byte[] data) {
