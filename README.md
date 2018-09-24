@@ -215,6 +215,6 @@
  
 <br /><br />
 该网址有4000多条数据，12G的图片
-[image](https://github.com/freedomeden/mzitu-picture/blob/master/picture.png)
+![image](https://github.com/freedomeden/mzitu-picture/blob/master/picture.png)
 <br /><br />
 
